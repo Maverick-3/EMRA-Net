@@ -11,7 +11,7 @@ This is a demo of our paper: **An Ensemble Multi-scale Residual Attention Networ
 ## Run Demo
 
 - We have put a pretrained model in the `model` directory.
-- Before running the demo, you need to install the [Pytorch Wavelet](https://github.com/fbcotter/pytorch_wavelets) package, please see the related documentation for more useful information.
+- Before running the demo, you need to install the [Pytorch Wavelet](https://github.com/fbcotter/pytorch_wavelets) package, please see the related documentation for more detailed information.
 
 - We have put some hazy images in the `test` directory (you can also put your own  images), and then  run the `test.py` file.  The dehazed images will be produced in the `result` directory ( it will be  created automatically ).
 - Good Luck.
