@@ -31,7 +31,6 @@ net.eval()
 images = os.listdir(opt.test_dir)
 
 if __name__ == "__main__":
-    t0 = time.time()
     for idx in images:
         img = Image.open(os.path.join(opt.test_dir, idx))
         h, w = img.size
